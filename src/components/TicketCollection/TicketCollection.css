@@ -1,0 +1,26 @@
+.ticket-collection {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ticket-collection .worker-card-container {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 200px;
+}
+.ticket-collection .worker-card-container .worker-name {
+  color: black;
+}
+.ticket-collection .worker-card-container .worker-card {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.ticket-collection .worker-card-container .worker-position {
+  color: #666;
+}

@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import "./Counter.css";
 
 function TicketCounter() {
   const [count, setCount] = useState(0);
@@ -14,12 +15,12 @@ function TicketCounter() {
   };
 
   return (
-    <div>
-      <h2>Ticket Counter</h2>
-      <div>
-        <button onClick={decrementCount}>-</button>
-        <h3>{count}</h3>
-        <button onClick={incrementCount}>+</button>
+    <div className="ticket-counter">
+      <h2>Tickets</h2>
+      <div className="counter-wrapper">
+        <button className="counter-button" onClick={decrementCount}>-</button>
+        <h3 className="counter-value">{count}</h3>
+        <button className="counter-button" onClick={incrementCount}>+</button>
       </div>
     </div>
   );

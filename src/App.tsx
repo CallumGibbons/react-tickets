@@ -1,13 +1,16 @@
-import TicketCounter from "./components/Counter/Counter";
-
-const App = () => {
-  return (
-    <div>
-      <TicketCounter/>;
-    </div>
-  )
-}
-
-export default App
+import TicketCollection from "./components/TicketCollection/TicketCollection";
+import workers from "./assets/WorkerData/WorkerData";
 
 
+
+
+
+const CardRender = () => {
+    return (
+        <div>
+            <TicketCollection WorkerCardArray={workers} />
+        </div>
+    );
+};
+
+export default CardRender;
