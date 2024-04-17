@@ -6,3 +6,5 @@ const workers = [
   { id: 5, name: "Rex Faulkner", position: "Nurse" },
   { id: 6, name: "Theodore Mccann", position: "Archivist" },
 ];
+
+export default workers;
