@@ -5,7 +5,7 @@ import workers from "./assets/WorkerData/WorkerData";
 
 
 
-const CardRender = () => {
+const App = () => {
     return (
         <div>
             <TicketCollection WorkerCardArray={workers} />
@@ -13,4 +13,4 @@ const CardRender = () => {
     );
 };
 
-export default CardRender;
+export default App;
