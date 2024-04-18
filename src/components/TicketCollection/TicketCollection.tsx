@@ -1,4 +1,3 @@
-import React from 'react';
 import WorkerCard from "../Worker/Worker";
 import './TicketCollection.css';
 
